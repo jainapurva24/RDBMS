@@ -1,0 +1,9 @@
+13] Write a shell script that takes command line argument number as meter and 
+by default converts that no in centimeter.
+
+
+#command line argument 
+echo "Enter Meters is : $@"
+m=$@
+cm=$(($m * 100))
+echo "Centimeters is : $cm cm"

@@ -1,0 +1,14 @@
+10] Accept a string from terminal and echo suitable message if it does not have 
+at least 10 characters.
+
+ 
+echo -e "Enter String : \c"
+read str
+#count the character
+len=`echo -n $str | wc -c`
+if test $len -lt 10
+then
+ echo "plese Enter Minimum 10 charater....!"
+else
+ echo "Your String is Perfact"
+fi
