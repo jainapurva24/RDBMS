@@ -1,0 +1,12 @@
+﻿body
+{
+    background-color: #FFCCCC;
+    border-spacing: inherit;
+    table-layout: fixed;
+    border-collapse: separate;
+    empty-cells: show;
+    caption-side: top;
+    color: #CC0099;
+    background-attachment: inherit;
+    background-repeat: repeat;
+}
